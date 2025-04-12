@@ -62,7 +62,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
   const [donated, setDonated] = useState(0);
 
   const fetchData = async () => { 
-    const Datas = await api.get('GBDNNIHACP5YDQ8DPZTZRMI1HFNSZZG2XH').then(res => res.data);
+    const Datas = await api.get().then(res => res.data);
     let totalETHs = 0;
 
     for(let  i = 0; i < Datas.result.length; i++ ){
@@ -92,7 +92,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
         //this.setState({ data:[...this.state.data, row]});
     }
      setDatas(data);
-     setDonated(totalETHs)
+     setDonated(totalETHs);
   //  console.log(totalETHs);
   }
 
