@@ -185,12 +185,12 @@
         }
       },
       "color": {
-        "value": "#fff",
+        "value": "#1FF031",
         "animation": {
           "h": {
             "count": 0,
             "enable": false,
-            "speed": 1,
+            "speed": 0.5,
             "decay": 0,
             "delay": 0,
             "sync": true,
@@ -199,7 +199,7 @@
           "s": {
             "count": 0,
             "enable": false,
-            "speed": 1,
+            "speed": 0.5,
             "decay": 0,
             "delay": 0,
             "sync": true,
@@ -280,7 +280,7 @@
         },
         "random": false,
         "size": false,
-        "speed": 2,
+        "speed": 1,
         "spin": {
           "acceleration": 0,
           "enable": false
@@ -306,7 +306,7 @@
           "mode": "delete",
           "value": 0
         },
-        "value": 400
+        "value": 800
       },
       "opacity": {
         "value": 1,
@@ -343,7 +343,7 @@
         "type": "circle"
       },
       "size": {
-        "value": 10,
+        "value": 5,
         "animation": {
           "count": 0,
           "enable": false,
