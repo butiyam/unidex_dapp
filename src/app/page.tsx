@@ -160,7 +160,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                <p className="text-xl md:text-2xl mb-8 text-gray-300">
                 Empowering the People with a Decentralized and Unstoppable Medium of Exchange that only goes UP
                </p>
-               <a href="/" target="_blank" rel="noopener noreferrer">
+               <a href="#donate" >
                   <button style={{background: '#1FF031'}} className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-9 px-4 py-2 bg-gradient-to-r from-emerald-400 via-cyan-400 to-purple-500 hover:from-emerald-500 hover:via-cyan-500 hover:to-purple-600 text-white border-none shadow-lg shadow-emerald-500/20">
                      Get $UNIDEX Now
                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right ml-2">
@@ -210,7 +210,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                      </div>
                      <div className="p-6 pt-0">
                         <p className="text-gray-300">
-                         {donated} ETH  
+                        {parseFloat(donated.toString()).toFixed(4)} ETH  
                         </p>
                      </div>
                   </div>
@@ -223,7 +223,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                      </div>
                      <div className="p-6 pt-0">
                         <p className="text-gray-300">
-                           {8-donated} ETH
+                        {parseFloat((8-donated).toString()).toFixed(4)} ETH
                         </p>
                      </div>
                   </div>
@@ -381,9 +381,9 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                      <p>© 2025 UNIDEX. All rights reserved.</p>
                   </div>
                   <div className="flex space-x-6 mt-4 md:mt-0">
-                    <a href="#support"  className="hover:text-emerald-400 transition-colors">Support</a>
+                    <a href="#supporters"  className="hover:text-emerald-400 transition-colors">Supporters</a>
                     <a href="#benefits"  className="hover:text-emerald-400 transition-colors">Benefits</a>
-                    <a href="/" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition-colors">Chart</a>
+                    <a href="#donate" className="hover:text-emerald-400 transition-colors">Donate</a>
                     <a href="https://t.me/unidexcommunity" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition-colors">Telegram</a>
                     <a href="https://x.com/unidex_" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition-colors">X</a>
                   </div>
