@@ -20,6 +20,10 @@ export default function RootLayout({
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <meta name="generator" content="v0.dev"/>
       <meta name="next-size-adjust"/>
+      <link rel="icon" href="./logo.png" sizes="32x32" />
+      <link rel="icon" href="./logo.png" sizes="192x192" />
+      <link rel="apple-touch-icon" href="./logo.png" />
+
    </head>
       <body style={{background: '#192800'}} className="__className_d65c78">
         {children}
