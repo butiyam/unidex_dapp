@@ -9,9 +9,8 @@ import QRCodeModal from "./QRCodeModal";
 import $ from "jquery";
 
 import Navbar from "./Navbar";
-import { eth, Web3 } from "web3";
+import { Web3 } from "web3";
 import api from "./api";
-import { Import } from "lucide-react";
 
 const web3 = new Web3(new Web3.providers.HttpProvider("https://bsc-dataseed1.ninicoin.io"));
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -337,12 +336,12 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                   <div className="bg-white/5 rounded-lg p-6 backdrop-blur-sm border border-emerald-500/20">
                      <h3 className="text-xl font-semibold mb-2 text-emerald-400">What is UNIDEX?</h3>
                      <p className="text-gray-300">
-                     What if your crypto could only go up? Meet UNIDEX, the world's first decentralized exchange with unidirectional functionality, built
+                     What if your crypto could only go up? Meet UNIDEX, the world&apos;s first decentralized exchange with unidirectional functionality, built
                      to perform better than other cryptocurrencies. Why? Because with this technology, dips and dumps are impossible, no matter how big your exit position is.
-                     With it's simple, robust game theory, we get the pumps without the dumps. On UNIDEX, tokens flow in one direction, from stablecoins to your token and never back. That's what makes the price move in just one direction to up.
-                     But how do you sell? That's where our powerful P2P-OTC smart contract comes in. You sell directly to others, peer to peer, at the exact same
+                     With it&apos;s simple, robust game theory, we get the pumps without the dumps. On UNIDEX, tokens flow in one direction, from stablecoins to your token and never back. That&apos;s what makes the price move in just one direction to up.
+                     But how do you sell? That&apos;s where our powerful P2P-OTC smart contract comes in. You sell directly to others, peer to peer, at the exact same
                      price as the UNIDEX pool, a price that updates in real time and climbs higher every time someone buys.
-                     It's seamless, it's synced, it's unstoppable. Built on a Uniswap
+                     It&apos;s seamless, it&apos;s synced, it&apos;s unstoppable. Built on a Uniswap
                      V3 fork, optimized for growth with no fees, full transparency and a community driven core. No middlemen, no slippage, no red candles, just pure upward
                      momentum.
                      UNIDEX, are you ready to go up?
@@ -354,7 +353,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                      <p className="text-gray-300">
                      Rates/minting rates is the quantity of UNIDEX tokens our Dapp will allow each donor to mint per day. Only given as rewards to early supporters who donated, 
                      ensuring they have more UNIDEX tokens than users that join later on in testnet and mainnet phases. Rates are assigned per wallet address. Meaning you can donate
-                     from as many wallet addresses as you want while each wallet address will be assigned it's unique rate.
+                     from as many wallet addresses as you want while each wallet address will be assigned it&apos;s unique rate.
                      The rates count per donor address begins from the moment you do the transfer till the mainnet goes live. The more time we take testing the more tokens you get for waiting.
                      </p>
                   </div>

@@ -5,7 +5,7 @@ import "./Navbar.css"; // 👈 Import custom CSS
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const navItems = ["Supporters","Benefits", "Donate",  "FAQ", "Telegram", "X"];
+  //const navItems = ["Supporters","Benefits", "Donate",  "FAQ", "Telegram", "X"];
 
   return (
     <header className="navbar">
