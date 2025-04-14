@@ -252,10 +252,10 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                <div className="bg-white/5 rounded-lg p-6 backdrop-blur-sm border border-emerald-500/20">
                   <ol className="list-decimal list-inside space-y-4 text-gray-300">
                      <li>Receive 100X rate of UNIDEX tokens daily per each ETH donated capped at 8 ETH global.</li>
-                     <li>The 100X rate pereach Ethereum will start counting from the moment you do the transfer till the
+                     <li>The 100X rate per each Ethereum will start counting from the moment you do the transfer till the
                      day we launch mainnet, the more time we take testing the more tokens you get for waiting.</li>
                      <li>The larger your donations, the higher your daily minting rates.</li>
-                     <li>Receive equivalent testnet tokens whichwill be convertible to mainnet UNIDEX tokens at launch.</li>
+                     <li>Receive equivalent testnet tokens which will be convertible to mainnet UNIDEX tokens at launch.</li>
                   </ol>
                </div>
             </section>
