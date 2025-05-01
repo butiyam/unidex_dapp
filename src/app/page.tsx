@@ -169,6 +169,19 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                      </svg>
                   </button>
                </a>
+               <div style={{  marginTop: '5rem' }} className="w-full  lg:w-[472px] h-[400px] border border-[#7E0ADB] rounded-[10px]">
+               <video
+                    autoPlay
+                    loop
+                    muted
+                    controls
+                    playsInline
+                    className="w-full h-full object-fill rounded-[10px]"
+                  >
+                    <source src="/video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+               </div>
             </section>
             <section id="features" className="mb-16">
                <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-emerald-400 to-purple-500 text-transparent bg-clip-text">
