@@ -357,7 +357,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                      <p className="text-gray-300">
                         <h4 className="text-sm font-semibold mb-2 text-emerald-400">💎 Complete State </h4>
                      
-                     Copy Every single ETH, ERC20 token, and NFT you own on Ethereum will be duplicated onto UNIDEX Your portfolio, instantly mirrored on a new, exciting chain!"                                                    
+                     Copy Every single ETH, ERC20 token, and NFT you own on Ethereum will be duplicated onto UNIDEX Your portfolio, instantly mirrored on a new, exciting chain!
                      </p>                         
                      <p className="text-gray-300">                                  
                       <h3 className="text-sm font-semibold mb-2 text-emerald-400">                                               
