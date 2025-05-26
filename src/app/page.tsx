@@ -178,7 +178,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                     playsInline
                     className="w-full h-full object-fill rounded-[10px]"
                   >
-                    <source src="/video.mp4" type="video/mp4" />
+                    <source src="/new-video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                </div>
@@ -355,7 +355,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                   <div className="bg-white/5 rounded-lg p-6 backdrop-blur-sm border border-emerald-500/20">
                      <h3 className="text-xl font-semibold mb-2 text-emerald-400">Awesome Features</h3>
                      <p className="text-gray-300">
-                        <h4 className="text-sm font-semibold mb-2 text-emerald-400">💎 Complete State </h4>
+                        <h3 className="text-sm font-semibold mb-2 text-emerald-400">💎 Complete State </h3>
                      
                      Copy Every single ETH, ERC20 token, and NFT you own on Ethereum will be duplicated onto UNIDEX Your portfolio, instantly mirrored on a new, exciting chain!
                      </p>                         
