@@ -158,7 +158,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                Welcome to UNIDEX
                </h1>
                <p className="text-xl md:text-2xl mb-8 text-gray-300">
-                Empowering the People with a Decentralized and Unstoppable Medium of Exchange that only goes UP
+               The Revolutionary Ethereum Fork Where Tokens Only Go Up!
                </p>
                <a href="#donate" >
                   <button style={{background: '#1FF031'}} className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-9 px-4 py-2 bg-gradient-to-r from-emerald-400 via-cyan-400 to-purple-500 hover:from-emerald-500 hover:via-cyan-500 hover:to-purple-600 text-white border-none shadow-lg shadow-emerald-500/20">
