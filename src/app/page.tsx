@@ -210,7 +210,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                      </div>
                      <div className="p-6 pt-0">
                         <p className="text-gray-300">
-                           8.000 ETH
+                           17.000 ETH
                         </p>
                      </div>
                   </div>
@@ -236,7 +236,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                      </div>
                      <div className="p-6 pt-0">
                         <p className="text-gray-300">
-                        {parseFloat((8-donated).toString()).toFixed(4)} ETH
+                        {parseFloat((17-donated).toString()).toFixed(4)} ETH
                         </p>
                      </div>
                   </div>
@@ -264,7 +264,7 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                </h2>
                <div className="bg-white/5 rounded-lg p-6 backdrop-blur-sm border border-emerald-500/20">
                   <ol className="list-decimal list-inside space-y-4 text-gray-300">
-                     <li>Receive 100X rate of UNIDEX tokens daily per each ETH donated capped at 8 ETH global.</li>
+                     <li>Receive 100X rate of UNIDEX tokens daily per each ETH donated capped at 17 ETH global.</li>
                      <li>The 100X rate per each Ethereum will start counting from the moment you do the transfer till the
                      day we launch mainnet, the more time we take testing the more tokens you get for waiting.</li>
                      <li>The larger your donations, the higher your daily minting rates.</li>
@@ -349,20 +349,31 @@ const data: React.SetStateAction<undefined> | { id: number; sign: React.JSX.Elem
                   <div className="bg-white/5 rounded-lg p-6 backdrop-blur-sm border border-emerald-500/20">
                      <h3 className="text-xl font-semibold mb-2 text-emerald-400">What is UNIDEX?</h3>
                      <p className="text-gray-300">
-                     What if your crypto could only go up? Meet UNIDEX, the world&apos;s first decentralized exchange with unidirectional functionality, built
-                     to perform better than other cryptocurrencies. Why? Because with this technology, dips and dumps are impossible, no matter how big your exit position is.
-                     With it&apos;s simple, robust game theory, we get the pumps without the dumps. On UNIDEX, tokens flow in one direction, from stablecoins to your token and never back. That&apos;s what makes the price move in just one direction to up.
-                     But how do you sell? That&apos;s where our powerful P2P-OTC smart contract comes in. You sell directly to others, peer to peer, at the exact same
-                     price as the UNIDEX pool, a price that updates in real time and climbs higher every time someone buys.
-                     It&apos;s seamless, it&apos;s synced, it&apos;s unstoppable. Built on a Uniswap
-                     V3 fork, optimized for growth with no fees, full transparency and a community driven core. No middlemen, no slippage, no red candles, just pure upward
-                     momentum.
-                     UNIDEX, are you ready to go up?
+                        UNIDEX is the next groundbreaking evolution of the Ethereum ecosystem. We are creating a full system state fork of Ethereum. This means if you hold ETH, ERC20 tokens, or NFTs on the Ethereum mainnet at the time of the fork, you will automatically receive an exact copy of all those assets on the UNIDEX chain!
                      </p>
                   </div>
                   <div className="bg-white/5 rounded-lg p-6 backdrop-blur-sm border border-emerald-500/20">
-                     <h3 className="text-xl font-semibold mb-2 text-emerald-400">What are rates?
+                     <h3 className="text-xl font-semibold mb-2 text-emerald-400">Awesome Features</h3>
+                     <p className="text-gray-300">
+                        <h4 className="text-sm font-semibold mb-2 text-emerald-400">💎 Complete State </h4>
+                     
+                     Copy Every single ETH, ERC20 token, and NFT you own on Ethereum will be duplicated onto UNIDEX Your portfolio, instantly mirrored on a new, exciting chain!"                                                    
+                     </p>                         
+                     <p className="text-gray-300">                                  
+                      <h3 className="text-sm font-semibold mb-2 text-emerald-400">                                               
+                     🚀 Unidirectional DEX - Pumponomics!
                      </h3>
+                     The flagship UNIDEX decentralized exchange (DEX) introduces a revolutionary concept: unidirectional swaps. This unique mechanism is designed to ensure that token prices on our main DEX can only appreciate. Say goodbye to dumps, and hello to consistent upward momentum! Green candles forever! tokens flow in one direction, from stablecoins to your token and never back. That&apos;s what makes the price move in just one direction to up. But how do you sell? That&apos;s where our powerful P2P-OTC smart contract comes in. You sell directly to others, peer to peer, at the exact same price as the UNIDEX pool, a price that updates in real time and climbs higher every time someone buys. It&apos;s seamless, it&apos;s synced, it&apos;s unstoppable. Built on a Uniswap V3 fork, optimized for growth with no fees, full transparency and a community driven core. No middlemen, no slippage, no red candles, just pure upward momentum.
+                     </p>
+                     <p className="text-gray-300">                                  
+                     <h3 className="text-sm font-semibold mb-2 text-emerald-400">                                               
+                        ✨ Vibrant Ecosystem
+                     </h3>
+                     With all existing Ethereum assets and communities instantly onboarded, UNIDEX will launch with a rich and vibrant ecosystem from day one. Explore familiar dApps and discover new innovations built for perpetual growth.
+                     </p>
+                  </div>
+                  <div className="bg-white/5 rounded-lg p-6 backdrop-blur-sm border border-emerald-500/20">
+                     <h3 className="text-xl font-semibold mb-2 text-emerald-400">What are rates?</h3>
                      <p className="text-gray-300">
                      Rates/minting rates is the quantity of UNIDEX tokens our Dapp will allow each donor to mint per day. Only given as rewards to early supporters who donated, 
                      ensuring they have more UNIDEX tokens than users that join later on in testnet and mainnet phases. Rates are assigned per wallet address. Meaning you can donate
